@@ -10,5 +10,5 @@
     vars: #task level variables
       COURSE: Ansible
     ansible.builtin.debug:
-      msg: {{COURSE}}
+      msg: "{{COURSE}}"
     
